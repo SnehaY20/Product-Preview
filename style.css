@@ -1,0 +1,76 @@
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+h1 {
+  font-family: "Fraunces";
+  font-weight: 500, 700;
+}
+h,
+p {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  height: 50%;
+  width: 50%;
+  border-radius: 8px;
+  border: none;
+  background-color: hsl(0, 0%, 100%);
+  margin: 10% 25% 10% 25%;
+}
+.flex-image {
+  height: 300%;
+  width: 120%;
+  display: block;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  border: none;
+}
+.flex-content {
+  height: 80%;
+  width: 100%;
+  margin: 4% 9% 4% 12%;
+  line-height: 1.4;
+  text-align: left;
+}
+.rate {
+  display: flex;
+  align-items: center;
+}
+.price {
+  display: inline;
+  margin-right: 20%;
+  color: #036942c7;
+  font-weight: 500, 700;
+}
+.f {
+  font-family: "Montserrat";
+  font-size: small;
+  font-weight: 700;
+  color: hsl(228, 12%, 48%);
+}
+.fa-shopping-cart {
+  color: white;
+  margin-left: 2px;
+}
+.fa {
+  margin: 10px 50px;
+  padding: 2px;
+}
+.button {
+  border-radius: 8px;
+  background: #034b2fc7;
+  border: none;
+}
+.t {
+  color: white;
+  font-family: "Montserrat";
+  margin-left: 8px;
+}
